@@ -21,3 +21,5 @@ pip freeze > requirements.txt
 
 * Build command: `python freeze.py`
 * Publish directory: `build`
+
+[![Run on Repl.it](https://repl.it/badge/github/Camps94/personal-website)](https://repl.it/github/Camps94/personal-website)
