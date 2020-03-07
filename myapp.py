@@ -6,9 +6,9 @@ app = Flask(__name__)
 def hello_world():
     return render_template("home.html")
 
-@app.route('/skills')
-def hello_world():
-    return render_template("skills.html")
+@app.route("/skills.html")
+def function_skills():
+	return render_template("skills.html")
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
